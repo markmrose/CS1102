@@ -47,10 +47,7 @@ public class GravityCalculator {
         System.out.print("The object's position after " + fallingTime +" seconds is ");
         System.out.format("%.1f", finalPosition); // Getting the output formatted to 1 decimal place
         System.out.println(" m."); // appending the units to the end of the output string
-        
-        Season vacation;
-        vacation = Season.SUMMER;
-        System.out.println(Season.SUMMER);
+
     } // end of main()
     
 }  // end of class GravityCalculator

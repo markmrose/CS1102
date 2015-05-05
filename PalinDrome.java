@@ -38,12 +38,6 @@ public class PalinDrome {
         
         // execute the palindrome checker and send it wordOut and reverseWord
         checkIt(wordOut, reverseWord);
-        
-        int N=5;
-        int D=4;
-        int A=0;
-        D = calcValue(A);
-        System.out.println("D = " + D);
     }
     
     // This subroutine takes the original word and cleans out the non-alpha characters
@@ -86,15 +80,4 @@ public class PalinDrome {
             TextIO.putln("This is NOT a palindrome");
             }
     }
-    
-    static int calcValue( int N) 
-    {
-    int D;
-    for( D=0; D<5; D++) {
-        N++;
-    }
-    return(N);
-    }
-    
-    
 }
